@@ -50,4 +50,4 @@ gradoDeAmbicion :: Persona -> Int
 gradoDeAmbicion unaPersona
     | tipoDeFelicidad unaPersona == "Muy Feliz" = felicidonios unaPersona * cantidadDeSuenios unaPersona
     | tipoDeFelicidad unaPersona == "Moderadamente Feliz" = edad unaPersona * cantidadDeSuenios unaPersona 
-    | tipoDeFelicidad unaPersona == "Poco Feliz" = 2 * cantidadDeSuenios unaPersona -}
+    | tipoDeFelicdad unaPersona == "Poco Feliz" = 2 * cantidadDeSuenios unaPersona -}
