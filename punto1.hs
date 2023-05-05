@@ -36,9 +36,6 @@ enFuncionDeLaFelicidad unaPersona parametro1 parametro2 parametro3
     | tipoDeFelicidad unaPersona == "Moderadamente Feliz" =  parametro2
     | tipoDeFelicidad unaPersona == "Poco Feliz" =  parametro3
 
-multiplicar :: Int->Int->Int
-multiplicar a b =a*b
-
 {-enFuncionDeLaFelicidad :: Persona -> Int -> Int -> Int -> Int -> Int
 enFuncionDeLaFelicidad unaPersona a b c d 
     | tipoDeFelicidad unaPersona == "Muy Feliz" =   a*b
